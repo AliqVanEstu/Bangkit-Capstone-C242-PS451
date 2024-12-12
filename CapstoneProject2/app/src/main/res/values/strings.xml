@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sagara Aksara</string>
+    <string name="title_home">Home</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_camera_result">Camera</string>
+    <string name="title_setting">Setting</string>
+    <string name="gallery_button_description">Buka Galeri</string>
+    <string name="result_camera">Hasil Kamera Akan muncul disini</string>
+    <string name="title_history">Title of History</string>">
+    <string name="text_history">Text History</string>">
+    <string name="aksara_jawa_description">Aksara Jawa adalah sistem tulisan tradisional yang digunakan oleh masyarakat Jawa untuk menuliskan bahasa Jawa. Aksara ini juga dikenal dengan nama lain seperti Hanacaraka, Carakan, atau Dentawyanjana.</string>
+    <string name="pasangan_aksara_description">Pasangan adalah bentuk khusus aksara Jawa yang digunakan untuk menghilangkan vokal bawaan a pada aksara sebelumnya, sehingga aksara tersebut dapat bergabung dengan aksara berikutnya.</string>
+    <string name="sandhangan_description">Sandhangan adalah tanda tambahan pada aksara Jawa untuk mengubah bunyi vokal, menambahkan konsonan, atau memberikan makna tertentu.</string>
+    <string name="wilangan_description">Wilangan adalah sistem angka dalam aksara Jawa yang digunakan untuk menuliskan bilangan dalam berbagai konteks tradisional, seperti naskah kuno, prasasti, dan dokumen budaya. Sistem ini melengkapi aksara Jawa sebagai media komunikasi yang mencakup huruf dan angka.</string>
+    <string name="swara_description">Aksara swara adalah aksara khusus yang digunakan untuk menulis vokal berdiri sendiri, tanpa konsonan di depannya. Aksara ini sering digunakan dalam puisi atau kata serapan yang tidak dapat ditulis menggunakan aksara Carakan biasa.</string>
+    <string name="default_description">Deskripsi tidak ditemukan</string>
+    <string name="aksara_image_description">Gambar Aksara Jawa</string>
+    <string name="pasangan_aksara_image_description">Gambar Pasangan Aksara</string>
+    <string name="sandhangan_image_description">Gambar Sandhangan</string>
+    <string name="wilangan_image_description">Gambar Wilangan</string>
+    <string name="swara_image_description">Gambar Swara</string>
+    <string name="default_image_description">Gambar tidak ditemukan</string>
+</resources>
