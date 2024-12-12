@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CapstoneProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color (menggunakan #E2B970 sebagai colorPrimary) -->
+        <item name="colorPrimary">#E2B970</item>
+        <item name="colorPrimaryVariant">#D59A53</item> <!-- Warna sedikit lebih gelap untuk variannya -->
+        <item name="colorOnPrimary">@color/black</item> <!-- Teks di atas primary color, hitam agar kontras -->
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#FFD166</item> <!-- Warna sekunder yang lebih terang agar kontras dengan warna utama -->
+        <item name="colorSecondaryVariant">#FFB347</item> <!-- Warna sekunder yang lebih gelap -->
+        <item name="colorOnSecondary">@color/black</item> <!-- Teks di atas secondary color -->
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Background color (untuk latar belakang aplikasi) -->
+<!--        <item name="colorBackground">#FFFFFF</item> &lt;!&ndash; Latar belakang putih pada tema terang &ndash;&gt;-->
+
+        <!-- Surface color (untuk elemen seperti CardView) -->
+        <item name="colorSurface">#FFF6D4</item> <!-- Warna krem muda sebagai surface -->
+        <!-- Teks di atas surface (warna teks untuk elemen di atas surface) -->
+        <item name="colorOnSurface">#4E4E4E</item> <!-- Teks abu-abu gelap di atas surface -->
+
+        <!-- Teks di atas background -->
+        <item name="colorOnBackground">#4E4E4E</item> <!-- Teks gelap di atas latar belakang putih -->
+
+        <!-- Error color -->
+        <item name="colorError">#D32F2F</item> <!-- Warna merah untuk error -->
+        <item name="colorOnError">@color/white</item> <!-- Teks putih di atas error color -->
+
+        <!-- Divider color -->
+<!--        <item name="colorDivider">#E0E0E0</item> &lt;!&ndash; Warna pembatas (divider) &ndash;&gt;-->
+    </style>
+</resources>

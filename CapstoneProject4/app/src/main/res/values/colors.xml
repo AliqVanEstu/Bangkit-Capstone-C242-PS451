@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#E2B970</color> <!-- Warna utama untuk terang -->
+    <color name="colorPrimaryVariant">#D59A53</color> <!-- Variasi dari warna utama -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Teks putih di atas primary color -->
+
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#FFD166</color> <!-- Warna sekunder untuk terang -->
+    <color name="colorSecondaryVariant">#FFB347</color> <!-- Variasi dari warna sekunder -->
+    <color name="colorOnSecondary">#FFFFFF</color> <!-- Teks putih di atas warna sekunder -->
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Latar belakang putih untuk mode terang -->
+    <color name="colorOnBackground">#4E4E4E</color> <!-- Teks gelap di atas latar belakang putih -->
+    <color name="colorBackgroundDark">#333333</color> <!-- Latar belakang gelap untuk tema gelap -->
+    <color name="colorOnBackgroundDark">#FFFFFF</color> <!-- Teks putih di atas latar belakang gelap -->
+
+    <!-- Surface Colors -->
+    <color name="colorSurface">#FFF6D4</color> <!-- Warna krem muda untuk surface -->
+    <color name="dark_surface">#333333</color> <!-- Surface lebih gelap untuk tema gelap -->
+    <color name="colorOnSurface">#4E4E4E</color> <!-- Teks gelap di atas surface terang -->
+    <color name="colorOnSurfaceDark">#FFFFFF</color> <!-- Teks terang di atas surface gelap -->
+
+    <!-- Text Colors -->
+    <color name="text_color_light">#000000</color> <!-- Teks gelap untuk tema terang -->
+    <color name="text_color_dark">#FFFFFF</color> <!-- Teks terang untuk tema gelap -->
+
+    <!-- Toolbar -->
+    <color name="dark_toolbar">#1A1A1A</color> <!-- Toolbar lebih gelap untuk tema gelap -->
+    <color name="light_toolbar">#FFFFFF</color> <!-- Toolbar lebih terang untuk tema terang -->
+
+    <!-- Error Color -->
+    <color name="colorError">#D32F2F</color>
+    <color name="colorOnError">#FFFFFF</color> <!-- Teks putih di atas error color -->
+
+    <!-- Divider Color -->
+    <color name="colorDivider">#E0E0E0</color> <!-- Warna divider -->
+
+    <!-- Black and White Colors -->
+    <color name="black">#000000</color> <!-- Warna hitam -->
+    <color name="white">#FFFFFF</color> <!-- Warna putih -->
+
+    <!-- Purple and Teal -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- New color for scanner box border -->
+    <color name="scanner_box_color">#FFFFFF</color> <!-- Contoh warna ungu untuk batas pemindai -->
+
+    <!-- Card Background Colors -->
+    <color name="card_background_light">#FFFFFF</color> <!-- Latar belakang kartu untuk tema terang -->
+    <color name="card_background_dark">#333333</color> <!-- Latar belakang kartu untuk tema gelap -->
+
+    <!-- Transparent Color -->
+    <color name="transparent">#00000000</color> <!-- Transparan -->
+</resources>

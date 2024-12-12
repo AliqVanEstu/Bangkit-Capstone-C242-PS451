@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.dicoding.capstoneproject.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_detailAksaraFragment"
+            app:destination="@id/detailAksaraFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailAksaraFragment"
+        android:name="com.dicoding.capstoneproject.ui.home.DetailAksaraFragment"
+        android:label="Detail Aksara Fragment">
+        <argument
+            android:name="aksaraType"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.dicoding.capstoneproject.ui.history.HistoryFragment"
+        android:label="History Fragment">
+        <argument
+            android:name="historyItem"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="com.dicoding.capstoneproject.ui.camera.CameraFragment"
+        android:label="@string/title_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/navigation_camera_result"
+        android:name="com.dicoding.capstoneproject.ui.camera.CameraResultFragment"
+        android:label="@string/title_camera_result"
+        tools:layout="@layout/fragment_camera_result">
+        <action
+            android:id="@+id/action_navigation_camera_result_to_navigation_camera"
+            app:destination="@id/navigation_camera" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.dicoding.capstoneproject.ui.setting.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

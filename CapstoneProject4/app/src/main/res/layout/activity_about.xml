@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_tentang_aplikasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Tentang Aplikasi"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description_tentang_aplikasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="sans-serif"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="4dp"
+            android:text="Aplikasi ini dikembangkan sebagai bagian dari proyek akhir program Bangkit 2024 #2. Dengan fokus pada edukasi dan dilandasi semangat pelestarian budaya Jawa, aplikasi ini bertujuan untuk memperkenalkan dan melestarikan aksara Jawa kepada masyarakat luas. Melalui aplikasi ini, diharapkan dapat turut berkontribusi dalam menjaga keberlangsungan warisan budaya Jawa yang semakin langka."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/title_pembuat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Pembuat"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pembuat_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Abiaz Fazel Maula Sandy – Universitas Sebelas Maret"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pembuat_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Ghaniyy Zhafran – Universitas Brawijaya"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pembuat_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Shofiyya Kheista Humairo – Universitas Negeri Jakarta"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pembuat_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Ahmad Asyam Adil – Universitas Brawijaya"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pembuat_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Muhammad Yusuf Alhafiz – Universitas Brawijaya"
+            android:textSize ="16sp" />
+
+        <TextView
+            android:id="@+id/pembuat_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Muhamad Lutfi Hakim – Universitas Negeri Yogyakarta"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pembuat_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Abdul Khaliq Pangestu – Universitas Negeri Yogyakarta"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
