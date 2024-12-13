@@ -3,7 +3,7 @@ const handler = require('./handler');
 const routes = [
     {
         method: 'GET',
-        path: '/dashboard/articles',
+        path: '/dashboard',
         handler: handler.getDashboardArticles
     },
     {
