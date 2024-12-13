@@ -1,22 +1,16 @@
-const postPredictHandler = require('../server/handler');
- 
+const handler = require('./handler');
+
 const routes = [
-  {
-    path: '/translate',
-    method: 'POST',
-    handler: postTranslateHandler,
-    options: {
-      payload: {
-        allow: 'multipart/form-data',
-        multipart: true
-      }
-    }
-  },
-  {
-    path: '/translate/histories',
-    method: 'GET',
-    handler: getTranslateHistoriesHandler,
-  }
-]
- 
+    {
+        method: 'GET',
+        path: '/dashboard/articles',
+        handler: handler.getDashboardArticles
+    },
+    {
+        method: 'GET',
+        path: '/article/{id}',
+        handler: handler.getArticle
+    },
+];
+
 module.exports = routes;
