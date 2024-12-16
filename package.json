@@ -19,6 +19,7 @@
   "homepage": "https://github.com/AliqVanEstu/Bangkit-Capstone-C242-PS451#readme",
   "dependencies": {
     "@google-cloud/firestore": "^7.11.0",
-    "@hapi/hapi": "^21.3.12"
+    "@hapi/hapi": "^21.3.12",
+    "dotenv": "^16.4.7"
   }
 }
